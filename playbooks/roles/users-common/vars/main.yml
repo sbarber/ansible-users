@@ -1,0 +1,26 @@
+---
+
+default_home: "/home/{{ user }}"
+default_shell: "/bin/bash"
+
+all_users:
+
+  rick:
+    ssh_keys:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAvjPC4LMxa8eaSovvLNiX+VmNHyZL99/z2XCO2/Qi/Cit9jdfUl5UxWF65jUQFuqwefqwegqwegU5L1tzaY9IIyVNqsz+QM/0sznrKqhrUX/dTQ3SP6lG5AezpoeK/ypeTEdl873om+CpXsV7fg0HGqEKCO8aNAfiIch6/noG52eLKzJgPBWEtc980lyH/RHxVNaq4WUprURMI6+AuDedetqnQL16yPsnOO86p5DkUKUDLkvxgVaGl+z17ErK9X6LgeYWFfUym0nZjTumPDaEOdkeY3EfsDBDFZtCsaEi73Tt45RcEfiKlXGeooNeqN3IS8EM9/qowCLPpWQ== rick"
+
+  shane:
+    ssh_keys:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmunvuURhN0jHt95XTBIidnn85ZhF+tM6jmSIZj7i/ANquqDFtCvk3Y9YNAn+HgzsD3BzP+jJgJLEOwlcX19DbH+xAqyfxPqwegqwgq3QBMybQoih88ZNKVzHSvslwk2BdfQGFhCzbSC+FIRAWToD23VVrToXH50AwZjoNuzHiezDs1fMLQdt5+eSTDTxszyB2Kz0p+kUnd1aaVR2ISyKoJoTHwmuibkjDWfpOvG9eH5DVQPDSUK30E2x6HtoU6XHGrTbL4UkNWkYnnwHaOtYG7r2VvYbAKqqiRbAxKJKmKrLUxh3UBUTdmxmSavLqeUWM2UsLAn7GXYpIv shane"
+
+  lori:
+    ssh_keys:
+      - "ssh-dss AAAAB3NzaC1kc3MAAACBAInrwQoGYKMa8U84BAtQFqs7pYDF54QdaQtio9bPP6Q3WFrALIA5DJOMa755RAhghomVFfgZAJucIZ2zCb6DU7FJQ7hwvuHZZfil1KVa4h5gQeqwefqwegqwegqULEHYI/bpw0a6L5uIEcn4RWZ8Ww8CNsarJhgSF5dAAAAFQDRBftkS5V4F2Jun+XGD6oZoBzEBwAAAIBwOVcyze1x1LE2lhKVjhEW82DJzOopeeht2oUh4Q7KVjiwNHKcoKnqTBBzobVcdN9vFnp/19OLQl5SaYj7xeJ4EbsWAkpZQF7/LES5C7+7MrDLwtL1cffrFGyEsrFug0tzoHcHRxCPWbxLCj/21JcXtYZyILNNkSwyWJ3g+7+DugAAAIAcmV7kJY2GoIjodbuNC67aCTEYFn4K6dJKU8vCHfh0I0fzFAFJrmuvqGTIytmuuAYK5Y2zh9EyKTqZnWDvERY5A3LgbHAueU/YBVITuJYMAVsC4K9kZZqxPMhaOXWrHFKbY0bT1TMbZ1a7cUO45DmJA8xVnx4fvHy46QrwVyG5JA== lori"
+
+  carl:
+    ssh_keys:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEy3YFPXm4+mdjWqm9klhJeqgwegqwweqFvW8pVvEQ3KzUYzngFRpIxJloTT2HcCl1G0E7RAYPaRyBOr89FpGLBZw8r1QaWkQP6HZH61sWnJa5Bnp8Utbvt09zRJqxSXBR+uxUr8wf69ymyKglKKWg5ydyQuL3zBgkAaBsK/JHJ4MrPzatOhYsHtirYIfxQ3I7+PFf56dc7IpE700ZpqYJ8wloVmKZqpp15T3mo7INS3Xb6Ca0o6tRXHGuBEhCjJHPcGZNGr+LhblE3D carl"
+
+  michonne:
+    ssh_keys:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEy3YFPXm4+eqwegqwegqwegqweqwegqwegqwegqwrgqrgqer+uxUr8wf69ymyKglKKWg5ydyQuL3zBgkAaBsK/JHJ4MrPzatOhYsHtirYIfxQ3I7+PFf56dc7IpE700ZpqYJ8wloVmKZqpp15T3mo7INS3Xb6Ca0o6tRXHGuBEhCjJHPcGZNGr+LhblE3D michonne"

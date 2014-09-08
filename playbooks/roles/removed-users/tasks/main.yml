@@ -1,0 +1,5 @@
+---
+- name: Ensure that no removed user accounts are present on the system
+  user: name={{ item }}
+        state=absent
+  with_items: removed_users

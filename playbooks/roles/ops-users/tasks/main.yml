@@ -1,0 +1,8 @@
+---
+- name: Give all members of the ops group full sudo access
+  copy: src=10_ops
+        dest=/etc/sudoers.d/10_ops
+        owner=root
+        group=root
+        mode=0440
+        validate="visudo -cf %s"

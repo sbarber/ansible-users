@@ -1,0 +1,22 @@
+---
+- name: Create the {{ user }} user
+  user: name={{ user }}
+        shell={{ all_users[user].shell | default(default_shell) }}
+        home={{ all_users[user].home | default(default_home) }}
+
+- name: Give the {{ user }} user their authorized_keys
+  authorized_key: user={{ user }}
+                  key="{{ item }}"
+  with_items: all_users.{{ user }}.ssh_keys
+
+- name: Create the {{ group }} group
+  group: name={{ group }}
+  when: group is defined
+
+- name: Add the {{ user }} user to the {{ group }} group
+  user: name={{ user }}
+        groups={{ group }}
+        append=yes
+  when: group is defined
+
+

@@ -1,0 +1,6 @@
+- hosts: all
+
+  roles:
+    - ops-users
+    - removed-users
+    - other-users

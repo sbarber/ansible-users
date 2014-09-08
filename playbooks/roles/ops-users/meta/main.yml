@@ -1,0 +1,4 @@
+---
+dependencies:
+  - { role: users-common, group: "ops", user: "rick" }
+  - { role: users-common, group: "ops", user: "lori" }
