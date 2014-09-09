@@ -4,7 +4,7 @@ ansible-users
 The hawt new way to easily manage users in ansible
 
 The goals of the project are:
-- Have one central file where we store the users's info
+- Have one central file where we store the user's info
 - Be able to include a user with one line
 
 All the heavy lifting is done by users-common. All you have to do is add the
