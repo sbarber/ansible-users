@@ -8,7 +8,7 @@ The goals of the project are:
 - Be able to include a user with one line
 
 All the heavy lifting is done by users-common. All you have to do is add the
-user's deets to userc-common/vars/main.yml and then include the user
+user's deets to user-common/vars/main.yml and then include the user
  (and optionally the group) in your dependencies like so:
 
 ```
